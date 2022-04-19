@@ -23,4 +23,10 @@ These actions for these methods are the recommended actions, but it's up to the 
 
 Simple Curl command:
 
-curl --request GET 'https://api.nasa.gov/planetary/apod?api_key=<myapikey>&date=2020-01-01' -I
+curl --request GET 'https://catfact.ninja/fact' -I
+
+curl --request GET 'https://api.publicapis.org/entries' -I
+
+curl --request GET 'https://api.coindesk.com/v1/bpi/currentprice.json' -I
+
+curl --request GET 'https://www.boredapi.com/api/activity' -I
