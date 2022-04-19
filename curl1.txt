@@ -1,1 +1,0 @@
-curl --request GET 'https://api.nasa.gov/planetary/apod?api_key=&date=2020-01-01' -I
