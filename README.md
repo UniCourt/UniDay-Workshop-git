@@ -21,12 +21,6 @@ These actions for these methods are the recommended actions, but it's up to the 
 
 - Body, which is the message body and contains the data that we want to send, if any. Generally, the body is used with POST and PUT methods.
 
-curl command options
-
-There are over two hundred curl options. You can see some of them by typing curl -h in a terminal. The most commonly used command options include these:
-
--I returns only the HTTPS headers
+Simple Curl command:
 
 curl --request GET 'https://api.nasa.gov/planetary/apod?api_key=<myapikey>&date=2020-01-01' -I
-
-4MQemyFDZYWhTNY4xGYPWbXnFzugCRC4YAe3VbnA
