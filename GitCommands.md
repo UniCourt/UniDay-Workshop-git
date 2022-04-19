@@ -10,7 +10,7 @@ git clone git@github.com:<username>/<repository-name>.git
 Default stream-name is “origin”
 
 ## Tell git who you are
-git config --user.name “github-username”
+git config --user.name “github-username”  
 git config --user.email “github-registered-email_id”
 
 ## Add new stream to your repository
